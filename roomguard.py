@@ -7,6 +7,7 @@ alarm_sounding = False
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
+# Configure notifications. You can use many different services.
 apobj = apprise.Apprise()
 config = apprise.AppriseConfig()
 config.add(script_dir + '/.apprise')
